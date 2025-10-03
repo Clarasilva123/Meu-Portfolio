@@ -38,10 +38,10 @@ body{
     transition-duration: 0.5s;
 }
 .foto-de-perfil{
-    height: 350px;
-    width: 350px;
-    box-shadow: 0 0 20px rgba(221, 221, 221, 0.801);
-    border-radius: 50%;
+     width: 350px;
+    box-shadow: 0 0 20px rgba(85, 82, 82, 0.63);
+    border-radius: 20px;
+    margin-top: 80px;
     
 }
 .cabecalho{
@@ -69,7 +69,7 @@ h1{
     font-size: 3em;
     color: #a6b5df;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 80px;
     
 }
 
@@ -125,6 +125,7 @@ h1{
 }
 .habilitade-titulo{
     text-align: center;
+    font-size: 2em;
 
 }
 .logo-habilidade{
@@ -133,19 +134,21 @@ h1{
      
   
 }
-
+.contato-titulo{
+    font-size: 2em;
+    margin: 20px;
+}
 .contato{
-    text-align: right;
-    padding-right: 200px;
-    padding-bottom: 35px;
-}
-.social{
-    text-align: left;
-    padding-left: 200px;
-    padding-bottom: 35px;
+    text-align: center;
+    padding-bottom: 30px;
+    right: 20px;
+   
 }
 
-
+.contato a i{
+     font-size: 30px; 
+     padding: 5px;
+}
 
 
 
