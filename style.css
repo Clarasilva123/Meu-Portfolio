@@ -130,7 +130,6 @@ h1{
 }
 
   
-
 .contato-titulo{
     font-size: 2em;
     margin: 20px;
@@ -143,12 +142,12 @@ h1{
    background-color: #a6b5df;
     color: #0f172a;
    
-   
 }
 
 .contato a i{
      font-size: 30px; 
      padding: 5px;
+
 }
 .borda{
   border: 2px solid #0f172a;
@@ -157,7 +156,6 @@ h1{
   margin: 0 auto;
  padding: 20px;
 
-  
 }
 
 
