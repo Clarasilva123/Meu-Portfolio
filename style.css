@@ -39,9 +39,10 @@ body{
 }
 .foto-de-perfil{
      width: 350px;
+   margin-right: 700px;
     box-shadow: 0 0 20px rgba(85, 82, 82, 0.63);
     border-radius: 20px;
-    margin-top: 100px;
+    margin-top: 80px;
     
 }
 .cabecalho{
@@ -51,25 +52,30 @@ body{
     flex-direction: column;
 }
 h1{
+    margin-left: 150px;
+    margin-top: -300px;
+    margin-bottom: 15px;
     font-size: 3.5rem;
     color: #2c4da8;
     font-weight: bold;
-    margin: 20px;
+    
 }
 .paragrafo{
     font-size: 1.5em;
     color: #a6b5df;
     margin: -20px;
+    margin-left: 150px;
 }
 .sobre{
-    padding: 6em 2em;
+    padding: 5em 2em;
 
 }
 .sobre-mim{
     font-size: 3em;
     color: #a6b5df;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 200px;
+    padding-bottom: 40px;
     
 }
 
@@ -87,7 +93,7 @@ h1{
 .projetos-titulo{
     text-align: center;
     font-size: 2em;
-    margin: 10px;
+   padding-bottom: 50px;
 }
     
 .projetos-caixa{
@@ -98,16 +104,26 @@ h1{
 
 }
 .card{
+    margin-top: -30px;
     background-color: #1a2644b2;
     border-radius: 16px;
     overflow: hidden;
     transition-duration: 0.5s;
     cursor: pointer;
+    text-align: center;
+    padding-bottom: 20px;
 }
-
+.link-gi {
+  color: white; 
+  text-decoration: none; 
+}
+.link-gi:hover{
+    color: #1c49c4;
+}
 .card:hover{
     box-shadow: 0px 10px 20px #a6b5df;
 }
+
 .projeto-imagem{
     height: 200px;
     width: 100%;
@@ -126,6 +142,12 @@ h1{
     text-align: center;
     font-size: 2em;
 
+}
+
+.logo-habilidade{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 150px;
 }
 
   
