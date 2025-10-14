@@ -8,13 +8,13 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #0f172a;
+   background: radial-gradient(circle, rgba(125, 0, 48, 1) 0%, rgba(0, 0, 0, 1) 100%);
     color: #e2e8f0;
 }
 
 .navegacao{
    position: fixed;
-   background-color: rgb(15, 23, 42, 0.8);
+   background-color: rgb(51, 8, 24);
    height: 60px;
    width: 100%;
 }
@@ -31,14 +31,14 @@ body{
     font-weight: 500;
 }
 .menu a:hover{
-    background-color: #43537e;
-    color: white;
+    background-color: rgb(114, 44, 71);
+    color: #ee9bb7;
     border-radius: 5px;
     padding: 5px 10px;
     transition-duration: 0.5s;
 }
 .foto-de-perfil{
-     width: 350px;
+    width: 350px;
    margin-right: 700px;
     box-shadow: 0 0 20px rgba(85, 82, 82, 0.63);
     border-radius: 20px;
@@ -56,25 +56,26 @@ h1{
     margin-top: -300px;
     margin-bottom: 15px;
     font-size: 3.5rem;
-    color: #2c4da8;
+    color: #ffffff;
     font-weight: bold;
     
 }
 .paragrafo{
     font-size: 1.5em;
-    color: #a6b5df;
+    color: #f08c9b;
     margin: -20px;
     margin-left: 150px;
 }
 .sobre{
     padding: 5em 2em;
+   
 
 }
 .sobre-mim{
     font-size: 3em;
-    color: #a6b5df;
+    color: #ee9bb7;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 220px;
     padding-bottom: 40px;
     
 }
@@ -105,7 +106,7 @@ h1{
 }
 .card{
     margin-top: -30px;
-    background-color: #1a2644b2;
+    background-color: rgb(51, 8, 25);
     border-radius: 16px;
     overflow: hidden;
     transition-duration: 0.5s;
@@ -121,7 +122,7 @@ h1{
     color: #1c49c4;
 }
 .card:hover{
-    box-shadow: 0px 10px 20px #a6b5df;
+    box-shadow: 0px 10px 20px #a6b5df77;
 }
 
 .projeto-imagem{
@@ -141,6 +142,7 @@ h1{
 .habilitade-titulo{
     text-align: center;
     font-size: 2em;
+    color: #ee9bb7;
 
 }
 
@@ -160,8 +162,8 @@ h1{
     text-align: center;
     padding-bottom: 30px;
     right: 20px;
-   background-color: #a6b5df;
-    color: #0f172a;
+   background-color: #c99ba1;
+    color: #5c0320;
    
 }
 
@@ -171,7 +173,7 @@ h1{
 
 }
 .borda{
-  border: 2px solid #0f172a;
+  border: 2px solid #000000;
   border-radius: 5px;
   width: 300px;
   margin: 0 auto;
